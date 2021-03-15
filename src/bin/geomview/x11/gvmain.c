@@ -98,10 +98,12 @@ int main(int argc, char **argv)
 
   for (i=0; i < gv_nwins; i++)
     if (!dview[i])
-    {/*
-      ui_windowWillOpen((DView *)NULL);
-      */
-       gv_new_camera(NULL, &cs);
+    {
+        /* ui_windowWillOpen((DView *)NULL); */
+        gv_new_camera(NULL, &cs);
+        /**
+         * gv_new_camera(char * a1, CameraStruct * a2) is in clang.c
+         */
     }
 
 

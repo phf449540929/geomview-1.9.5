@@ -1,0 +1,1 @@
+/home/hndx/CLionProjects/geomview-1.9.5/./src/lib/geometry/point3/point3.h
